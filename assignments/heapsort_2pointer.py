@@ -11,6 +11,8 @@ import math
 def heapsort(arr):
     # create heap 
     n = len(arr)  # number of times to loop for completed tree
+    # all tree is unsorted so need to loop through n//2-1 times 
+    # to initially build the heap, start from the bottom and move up. Start from 1 row above leaf nodes   
     for i in range(n//2 - 1, -1, -1): 
         heapify(arr, n, i)
 
@@ -19,6 +21,7 @@ def heapsort(arr):
         arr[i], arr[0] = arr[0], arr[i]
 
         # heapify to sort tree starting from root > creates heap again
+        # only 1 number, the root is unsorted, so set i = 0 to sort only the root node 
         heapify(arr, i, 0)
 
     return arr
@@ -29,6 +32,7 @@ def heapify(arr, n, i):
     left = 2*i + 1
     right = 2*i + 2
 
+    # n tells us where the heap is. Everytime it decrements by 1 swapping root and last 
     if left < n and arr[max] < arr[left]:
         arr[i], arr[left] = arr[left], arr[i]
         heapify(arr, n, left) 
