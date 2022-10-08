@@ -23,11 +23,15 @@ NOTES:
 
 
 '''
+QUESTIONS: 
+-
+
+
 LESSONS LEARNED: 
 -
 
 
-
 CODE IMPROVEMENT: 
 - 
+
 '''
