@@ -58,5 +58,5 @@ LESSONS LEARNED:
 - a heap is a tree representation of an array. We create the heap using max = i, left = 2*i + 1, right = 2*i + 2
 - The first step in heapsort is to create the heap. Creating the heap means calling heapify multiple times because there are multiple unsorted nodes. Heapify starts soring from 2nd to bot row 
 - Within the root node swap w the last node, heapify is called again because the root node isn't max. Here heapify is called but the index i = 0, size = i because the size of the heap decreased by 1 
-- 
+- not using return (heapify) because no need to return any value 
 '''

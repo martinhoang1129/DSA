@@ -50,6 +50,7 @@ QUESTIONS:
 LESSONS LEARNED: 
 - To have recursion call, must return (RECURSIVE FUNCTION) 
 - list is redefined in the conditions. size, left, right, mid are recalculated at the beginning of binary_search function 
+- NEED TO RETURN IN BINARY_SEARCH BECAUSE WE WANT THE OUTPUT OF EACH CALL TO BE IN THE INPUT OF THE NEXT 
 
 
 CODE IMPROVEMENT: 
