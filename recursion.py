@@ -77,7 +77,7 @@ QUESTIONS:
     - define returned recursive call: fibo(i) = fibo(i-1) + fibo(i-2) 
     
 LESSONS LEARNED: 
--
+- Only use global var if needed throughout program because it wastes memory. its stored in the beginning of the stack and doesn't delete until power is off 
 
 
 CODE IMPROVEMENT: 
