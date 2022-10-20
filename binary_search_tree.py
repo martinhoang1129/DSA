@@ -2,7 +2,7 @@
 
 '''
 Binary Search Tree 
-
+Purpose of this code is to learn how to make a BST 
 
 PSEUDOCODE: 
 1. create node class with value, left and right as constructors 
